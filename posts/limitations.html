@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>SqlPad - A web app for running SQL queries and visualizing the results</title>
+  <meta name="keywords" content="SqlPad, node.js, Postgres, postgresql, mysql, microsoft sql server, online sql editor">
+  <meta name="description" content="SqlPad is a web app for writing and running SQL queries and visualizing the results. Supports Postgres, MySQL, and SQL Server. Built with Node.js">
+  <meta name="author" content="Rick Bergfalk">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/skeleton-home.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+</head>
+<body class="">
+   
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        
+        <!-- Nav
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <nav class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                  <a class="navbar-link" href="/">Home</a>
+              </li>
+              <li class="navbar-item">
+                  <a class="navbar-link" href="/installation-and-usage">Installation & Usage</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/limitations" >Limitations</a>
+              </li>
+            </ul>
+        </nav>
+        <div class="u-cf"></div>
+	<section id="main_content">
+		<h1>
+			Limitations
+		</h1>
+		<small>
+			September 2015
+		</small>
+		<hr>
+		<div>
+			<h4 id="sqlpad-is-not-as-finished-as-you-might-think-">SqlPad is not as finished as you might think.</h4>
+<p>Be sure to not forget your password to your user account. As of now there&#39;s no way to reset it.</p>
+<p>Even though username is based on an email address, in no way does SqlPad have the capability to email that address.</p>
+<p>Be sure not to query with 2 columns returned of the same name. Some SQL reporting systems can handle this. SqlPad can&#39;t.</p>
+<p>Every query run is done with a new session/connection, so keep that in mind if you use variables and temp tables and split up your SQL executions. If this doesn&#39;t make any sense to you just forget you read this you probably won&#39;t be impacted by it.</p>
+<p>Have you hit a weird limitation you&#39;d like us to know about? Feel free to <a href="https://github.com/rickbergfalk/sqlpad/issues">add a GitHub issue about it</a>. </p>
+		</div>
+	</section>
+
+    </div> <!-- container -->
+    
+    
+    <style>
+        .bgphoto {
+            background-image: url('../images/screenshots/query-editor-blur-red.jpg');
+            background-size: cover;
+            color: #fff;
+            min-height:400px;
+        }
+    </style>
+    <section class="bgphoto">
+        <h2 style="
+            text-align: center;
+            padding-top: 100px;
+            font-size: 8rem;
+        "></h2>
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="//github.us11.list-manage.com/subscribe/post?u=8314eae319da113739c8e6039&amp;id=673653d22d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                            <!-- <h5>Get SqlPad updates in your email</h5> -->
+                            <h6 class="docs-header">Get SqlPad updates in your email</h6>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address</label>
+                                <input style="color:#000;" class="u-full-width" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_8314eae319da113739c8e6039_673653d22d" tabindex="-1" value=""></div>
+                            <div class="clear">
+                                <input class="button-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+                    
+                </div>
+                <div class="six columns">
+                    <h6 class="docs-header">Thank You</h6>
+                    <p>
+                        Special thanks to the contributors helping with the SqlPad 
+                        development, as well as the creators of all the amazing 
+                        open source libraries used to build SqlPad. 
+                    </p>
+                    <p>
+                        Without them this project would not be possible.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    
+    
+    <a href="https://github.com/rickbergfalk/sqlpad">
+      <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 200;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a>
+    
+    <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-54318769-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+</html>
