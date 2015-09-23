@@ -13,32 +13,32 @@ Below are some examples of the charts you can create with SqlPad, along with the
 
 Tutorial coming soon!
 
-<img class="u-max-full-width" src="/images/tutorials/chart-output-punchcard.png"/>
+<img class="u-max-full-width" src="/sqlpad/images/tutorials/chart-output-punchcard.png"/>
 
 
 ## Phased Event Frequency Scatterplot Thing
 
 Tutorial coming soon!
 
-<img class="u-max-full-width" src="/images/tutorials/chart-output-publish-frequency-thing.png"/>
+<img class="u-max-full-width" src="/sqlpad/images/tutorials/chart-output-publish-frequency-thing.png"/>
 
 
 ## Cumulative Aggregate Multi-Line Chart
 
 Tutorial coming soon!
 
-<img class="u-max-full-width" src="/images/tutorials/chart-output-cumulative-line.png"/>
+<img class="u-max-full-width" src="/sqlpad/images/tutorials/chart-output-cumulative-line.png"/>
 
 
 ## Regular ol' Line Chart
 
 Tutorial coming soon!
 
-<img class="u-max-full-width" src="/images/tutorials/chart-output-line.png"/>
+<img class="u-max-full-width" src="/sqlpad/images/tutorials/chart-output-line.png"/>
 
 
 ## Boring Top x Bar Chart
 
 Tutorial coming soon!
 
-<img class="u-max-full-width" src="/images/tutorials/chart-output-top-bar.png"/>
+<img class="u-max-full-width" src="/sqlpad/images/tutorials/chart-output-top-bar.png"/>
