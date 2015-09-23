@@ -63,7 +63,10 @@ function render () {
     Very simple Express Setup for previewing site
 ============================================================================ */
 var app = express();
-app.use(express.static(__dirname));
+app.use("/sqlpad", express.static(__dirname));
+app.get("/", function (req, res) {
+    res.redirect("/sqlpad/");
+})
 app.listen(3000);
 console.log('Web server now running. View at http://localhost:3000');
 console.log('Press ctrl-c at any time to stop\n');
